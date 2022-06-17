@@ -1,0 +1,13 @@
+project_name: KSE527-PendulumSweeps-l1
+datamodule:
+  batch_size: 8192
+  num_workers: 4
+  data_path: data/pendulum
+model:
+  layers: [[3, 128],[128,128],[128,2]]
+  activation: relu
+train:
+  lr: 1e-3
+  epochs: 100   
+  device: 1
+  accelerator: gpu

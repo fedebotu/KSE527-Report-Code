@@ -1,0 +1,13 @@
+project_name: KSE527-CartPoleSweeps-l1
+datamodule:
+  batch_size: 8192
+  num_workers: 4
+  data_path: data/cartpole
+model:
+  layers: [[5, 128],[128,128],[128,4]]
+  activation: relu
+train:
+  lr: 1e-3
+  epochs: 500   
+  device: 1
+  accelerator: cpu #gpu

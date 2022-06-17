@@ -1,0 +1,11 @@
+model_type: Dummy
+model:
+  input_dim: 1
+train:
+  epoch: 4048
+  ckpt_every: 32
+  batch_size: 1024
+  num_workers: 0
+# data:
+#   train_path: 'data/'
+#   test_path: 'data/polynomial/test_data4.pt'

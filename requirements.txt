@@ -1,0 +1,10 @@
+torch
+torchdyn
+pytorch-lightning
+functorch
+matplotlib
+tqdm
+wandb
+python-box
+mat73
+gdown
